@@ -1,0 +1,999 @@
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+.header-bg-img {
+  background: linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.46)),
+    url("../img/bg_1.jpg.webp") center/cover fixed;
+  height: 100vh;
+}
+.all-navbar {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+}
+.logo .link {
+  font: 700 30px "Nunito Sans", serif;
+  color: #fff;
+  text-transform: none;
+}
+.logo a {
+  color: #fff;
+  font: 700 15px "Nunito Sans", serif;
+  text-transform: uppercase;
+}
+.navbar-link {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.navbar-link a {
+  color: #fff;
+  font: 700 13px "Nunito Sans", serif;
+  text-transform: uppercase;
+}
+.header-content {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.header-content p {
+  font: 700 13px "Nunito Sans", serif;
+  color: #fff;
+  line-height: 1.7;
+  text-transform: uppercase;
+}
+.header-content h1 {
+  color: #fff;
+  font: 700 40px "Old Standard TT", serif;
+  margin-bottom: 20px;
+}
+.header-links {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+}
+.header-links .btn1,
+.header-links .btn2 {
+  color: #fff;
+  font: 700 12px "Nunito Sans", serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 1.2rem;
+  outline: none;
+}
+.header-links .btn1 {
+  background-color: #c5a880;
+  border: 1px solid #c5a880;
+}
+.header-links .btn2 {
+  background-color: transparent;
+  border: 1px solid white;
+  transition: 0.4s;
+}
+.header-links .btn2:hover {
+  color: black;
+  background-color: #fff;
+}
+.section-bg-img {
+  background-color: #eee;
+  height: 100%;
+  position: relative;
+}
+.section-crd {
+  padding: 96px 0;
+}
+.section-cards,
+.section-cardss {
+  display: flex;
+  flex-direction: column;
+  transition: 0.4s;
+}
+.section-cards:hover .section-card-content,
+.section-cardss:hover .section-card-content {
+  background-color: #333;
+  h3 {
+    color: #fff;
+  }
+}
+.section-card-img {
+  max-width: 600px;
+  height: 230px;
+}
+.section-card-img img,
+.section-cardss img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.section-card-content {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 24px;
+}
+.section-card-content img {
+  width: 60px;
+  height: 60px;
+}
+.section-card-content h3 {
+  font: 400 24px "Old Standard TT", serif;
+}
+.section-card-content p {
+  font: 400 16px "Nunito Sans", serif;
+  color: #999;
+  width: 90%;
+  text-align: center;
+  line-height: 1.8;
+}
+.section-card-contents {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+  max-width: 700px;
+}
+.section-card-contents h4 {
+  color: #c5a880;
+  font: 700 13px "Nunito Sans", serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.section-card-contents h2 {
+  font: 400 38px "Old Standard TT", serif;
+  color: #000000cc;
+}
+.section-card-contents p {
+  color: #999;
+  line-height: 1.8;
+  font: 400 16px "Nunito Sans", serif;
+  margin: 30px 0;
+}
+.section-card-contents a {
+  color: #fff;
+  font: 600 12px "Nunito Sans", serif;
+  padding: 1rem 1.5rem;
+  background-color: #c5a880;
+  text-transform: uppercase;
+  width: 50%;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.services,
+.section-rooms {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  padding: 96px 0;
+}
+.services-content,
+.rooms-content,
+.restobar-content,
+.testimional-content,
+.blog-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.services-content h4,
+.rooms-content h4,
+.restobar-content h4,
+.testimional-content h4,
+.blog-header h4 {
+  font: 600 16px "Nunito Sans", serif;
+  color: #c5a880;
+  letter-spacing: 2px;
+}
+.services-content h1,
+.rooms-content h1,
+.restobar-content h1,
+.testimional-content h1,
+.blog-header h1 {
+  color: #000000cc;
+  font: 400 38px "Old Standard TT", serif;
+}
+.services-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.service-card {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 20px;
+  transition: 0.4s;
+}
+.service-card a img {
+  width: 70px;
+  height: 74px;
+}
+.service-card a {
+  font: 600 20px "Nunito Sans", serif;
+  color: #000000cc;
+}
+.service-card:hover {
+  background-color: #c5a880;
+}
+.section-hotel-bg {
+  background: linear-gradient(rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.658)),
+    url("../img/bg_1.jpg.webp") center/cover;
+  height: 100%;
+  padding: 3rem 0.75rem;
+}
+.section-hotel-contents {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.section-hotel-content h4 {
+  color: #c5a880;
+  font: 600 15px "Nunito Sans", serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.section-hotel-content h1 {
+  color: #fff;
+  font: 500 1.75rem "Old Standard TT", serif;
+  line-height: 1.5;
+}
+.btn {
+  display: flex;
+  gap: 60px;
+}
+.section-hotel-contents .btn a {
+  color: #fff;
+  font: 700 14px "Nunito Sans", serif;
+  background-color: #c5a880;
+  padding: 16px 24px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.rooms-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin: 70px 0 20px 0;
+}
+.room-card1,
+.room-card2,
+.room-card3 {
+  display: flex;
+  flex-direction: column;
+}
+.room-card1:hover .room-card-content,
+.room-card2:hover .room-card-content,
+.room-card3:hover .room-card-content {
+  background-color: #212529;
+}
+.room-card1:hover .room-card-content .cnt,
+.room-card2:hover .room-card-content .cnt,
+.room-card3:hover .room-card-content .cnt {
+  color: #999;
+}
+.room-card1:hover .room-card-content h3 a,
+.room-card1:hover .room-card-content .card-bottom a,
+.room-card2:hover .room-card-content h3 a,
+.room-card2:hover .room-card-content .card-bottom a,
+.room-card3:hover .room-card-content h3 a,
+.room-card3:hover .room-card-content .card-bottom a {
+  color: #fff;
+  border-color: #fff;
+}
+.room-card-img {
+  height: 280px;
+  max-width: 465px;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.room-card-content {
+  background-color: #fff;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  transition: 0.4s;
+  height: 280px;
+}
+.room-card-content h3 a {
+  color: #000;
+  font: 400 30px "Old Standard TT", Arial, sans-serif;
+}
+.room-card-content .cnt {
+  color: #212529;
+  font: 400 16px "Nunito Sans", serif;
+  line-height: 1.8;
+}
+.card-bottom {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.room-card-content .card-bottom p {
+  color: #c5a880;
+  font: 700 14px "Nunito Sans", serif;
+  text-transform: uppercase;
+}
+.room-card-content .card-bottom a {
+  color: #222;
+  font: 700 14px "Nunito Sans", serif;
+  text-transform: uppercase;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 5px 10px;
+  border-radius: 2px;
+}
+.video-play-bg {
+  background: linear-gradient(#00000085, #00000083),
+    url("../img/bg_2.jpg.webp") center/cover;
+  height: 80vh;
+}
+.video-play-content {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.video-play-content h4 {
+  color: #fff;
+  font: 700 13px "Nunito Sans", serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.video-play-content h1 {
+  color: #fff;
+  font: 400 70px "Old Standard TT", Arial, sans-serif;
+}
+.video-play-content i {
+  color: #fff;
+  font-size: 40px;
+  padding: 25px;
+  background-color: #c5a880;
+  border-radius: 50%;
+}
+.restobar-img {
+  max-width: 550px;
+  position: relative;
+}
+.restobar-img img {
+  width: 100%;
+  min-height: 300px;
+  object-fit: cover;
+}
+.restobar-section {
+  display: flex;
+  flex-direction: column;
+  padding: 96px 0;
+}
+.restobar-cnt {
+  display: flex;
+  flex-direction: column;
+  padding: 0 12px;
+}
+.restobar-icon {
+  position: absolute;
+  top: 30%;
+  left: 44%;
+}
+.restobar-icon img {
+  max-width: 90px !important;
+  min-height: 5px !important;
+  background: #c5a880;
+  padding: 25px 10px;
+  border-radius: 5px;
+}
+.restobar-cards,
+.restobar-cardss {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.restobar-card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 30px;
+  width: 100%;
+  background-color: #fff;
+  transition: 0.4s;
+}
+.restobar-card:hover {
+  background-color: #212529;
+  color: #fff;
+}
+.restobar-card .restobar-card-img img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.restobar-card-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.restobar-card-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.restobar-card-content h3 {
+  font: 600 20px "Nunito Sans", serif;
+  width: 70%;
+  line-height: 1.5;
+}
+.restobar-card-content p {
+  font: 400 20px "Nunito Sans", serif;
+  color: #c5a880;
+  width: 30%;
+  line-height: 1.8;
+}
+.testimonial-section {
+  padding: 96px 0;
+}
+.testimonial-cards {
+  padding: 32px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.testimonial-card {
+  padding: 35px 30px 30px 30px;
+  background-color: #fff;
+  width: 100%;
+}
+.testimonial-cnt {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.testimonial-cnt img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.testimonial-img {
+  position: relative;
+}
+.img-symbol {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+.img-symbol img {
+  width: 30px;
+  height: 30px;
+  background-color: #c5a880;
+  padding: 5px;
+}
+.testimonial-content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.testimonial-content h2 {
+  font: 700 22px "Nunito Sans", serif;
+  color: #222;
+}
+.testimonial-content p {
+  font: 600 13px "Nunito Sans", serif;
+  text-transform: uppercase;
+  color: #c5a880;
+}
+.prqrf p {
+  color: rgba(0, 0, 0, 0.8);
+  font: 400 16px "Nunito Sans", serif;
+  line-height: 1.8;
+  margin: 10px 0;
+}
+.price-bg {
+  background-color: #222;
+  height: 80%;
+}
+.price-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+}
+.price {
+  padding: 90px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+.price h2 {
+  color: #c5a880;
+  font: 400 40px "Nunito", Arial, sans-serif;
+}
+.price p {
+  font: 400 16px "Nunito", Arial, sans-serif;
+  color: #fff;
+}
+.blog-cards {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  gap: 20px;
+}
+.blog-section {
+  padding: 96px 0;
+}
+.blog-card-img {
+  max-width: 465px;
+  height: 300px;
+}
+.blog-card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.blog-card-content {
+  background-color: #fff;
+  padding: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.blog-card-cnt {
+  display: flex;
+  gap: 10px;
+}
+.blog-card-content .blog-card-cnt p {
+  color: #999;
+  text-transform: uppercase;
+  font: 600 13px "Nunito", Arial, sans-serif;
+}
+.blog-card-cnt a {
+  color: #c5a880;
+  font: 600 13px "Nunito", Arial, sans-serif;
+  text-transform: uppercase;
+}
+.blog-card-content h3 a {
+  color: #000;
+  font: 400 22px "Old Standard TT", Arial, sans-serif;
+  transition: 0.4s;
+}
+.blog-card-content h3:hover a {
+  color: #c5a880;
+}
+.blog-card-content p {
+  color: #999;
+  font: 400 16px "Nunito", Arial, sans-serif;
+  line-height: 1.8;
+}
+.img-section-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 12px;
+}
+.img-section img {
+  width: 100%;
+  object-fit: cover;
+}
+.img-section {
+  max-width: 465px;
+  max-height: 250px;
+  position: relative;
+  display: flex;
+  transition: 0.4s;
+}
+.img-section .search-icon i {
+  display: none;
+}
+.img-section:hover .search-icon i {
+  display: flex;
+}
+.img-section:hover .search-icon {
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.412) 23%,
+    rgba(0, 0, 0, 0.455) 88%
+  );
+}
+.search-icon {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  transition: 0.4s;
+
+  i {
+    color: #fff;
+    font-size: 20px;
+    background-color: #c5a880;
+    padding: 10px;
+    border-radius: 50%;
+  }
+}
+.check-box {
+  background-color: #000;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: absolute;
+  top: -300px;
+}
+.chec-box-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 16px 24px;
+}
+.chec-box-content h3 {
+  font: 700 12px "Nunito", Arial, sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+.check-box-down {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 15px;
+  display: flex;
+  gap: 10px;
+}
+.check-box a {
+  font: 700 15px "Nunito", Arial, sans-serif;
+  color: #fff;
+  background-color: #c5a880;
+  padding: 25px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  width: fit-content;
+}
+.footer-bg {
+  background-color: #1a1a1a;
+  height: 100%;
+  padding: 112px 0 96px 0;
+}
+.footers{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.footer-content {
+  display: flex;
+  flex-direction: column;
+}
+.footer-content p {
+  color: rgba(255, 255, 255, 0.7);
+  font: 400 16px "Nunito", Arial, sans-serif;
+  line-height: 1.8;
+  margin: 40px 0 16px 0;
+  
+}
+.footer-links a i {
+  color: #c5a880;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 10px;
+  font-size: 15px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+}
+.services-contents,.quicks-links,.question {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.services-links{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.services-header h4,.quick-header h4,.question-header h4 {
+  color: #fff;
+  font: 600 20px "Nunito", Arial, sans-serif;
+}
+.services-link1,.quick-link {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.services-link1 a,.quick-link a {
+  color: rgba(255, 255, 255, 0.7);
+  font: 400 16px "Nunito", Arial, sans-serif;
+  transition: .4s;
+}
+.services-link1 a:hover,.quick-link a:hover{
+  color: #c5a880;
+}
+.question-content{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.question-content address,.question-content a{
+  color: rgba(255, 255, 255, 0.7);
+  font: 400 15px "Nunito", Arial, sans-serif;
+}
+.question-content i{
+  color: #c5a880;
+  padding-right:10px ;
+}
+.colorlib-copyRight{
+  background-color: #151515;
+  padding: 48px 0;
+  text-align: center;
+}
+.colorlib-copyRight p{
+  color:rgba(255,255,255,.5) ;
+  font: 400 14px  "Nunito", Arial, sans-serif;
+  line-height: 1.8;
+}
+.colorlib-copyRight p a{
+  color: #c5a880;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 1320px;
+    margin: auto;
+  }
+  .all-navbar {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+  }
+  .navbar-link {
+    flex-direction: row;
+    gap: 60px;
+  }
+  .header-content h1 {
+    font: 600 80px "Old Standard TT", serif;
+  }
+  .header-links {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .header-links .btn1,
+  .header-links .btn2 {
+    padding: 1.2rem 2rem;
+  }
+  .services-content h1,
+  .rooms-content h1,
+  .restobar-content h1,
+  .testimional-content h1,
+  .blog-header h1 {
+    font-size: 64px;
+  }
+  .section-cards {
+    gap: 20px;
+    flex-direction: column-reverse;
+  }
+  .section-cardss {
+    gap: 20px;
+  }
+  .section-crd {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 128px 0;
+  }
+  .section-card-img {
+    max-width: 300px;
+    height: 230px;
+  }
+  .section-card-content {
+    max-width: 300px;
+  }
+  .section-card-contents {
+    padding: 0 24px;
+  }
+  .section-card-contents h2 {
+    font-size: 64px;
+  }
+  .section-card-contents h4 {
+    font-size: 20px;
+  }
+  .section-card-contents p {
+    margin-bottom: 50px;
+    width: 90%;
+    line-height: 1.8;
+  }
+  .section-card-contents a {
+    width: 250px;
+  }
+  .services-content h1 {
+    font-size: 64px;
+    color: #000000cc;
+  }
+  .services-cards {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .service-card {
+    width: 100%;
+    border-radius: 50% 50% 50% 0;
+  }
+  .section-hotel-contents {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+  }
+  .section-hotel-content {
+    width: 40%;
+  }
+  .section-hotel-content h1 {
+    font-size: 2.5rem;
+  }
+  .section-hotel-contents .btn a {
+    padding: 1.5rem 3rem;
+  }
+  .rooms-cards {
+    flex-direction: row;
+    gap: 20px;
+  }
+  .room-card1,
+  .room-card3 {
+    flex-direction: column-reverse;
+  }
+  /* .restobar-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  } */
+
+  .restobar-cnt {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    padding: 20px 12px;
+  }
+  .restobar-card-section {
+    flex-direction: row;
+  }
+  .restobar-card {
+    max-width: 400px;
+  }
+  .restobar-img img {
+    min-height: 600px;
+    max-width: 550px;
+  }
+  .restobar-icon {
+    width: 100px;
+    height: 120px;
+    top: 40%;
+    left: 90%;
+  }
+  .restobar-icon img {
+    max-width: 90px !important;
+    min-height: 5px !important;
+  }
+  .testimonial-section {
+    padding: 128px 0;
+  }
+  .testimonial-cards {
+    flex-direction: row;
+  }
+  .price-card {
+    justify-content: space-around;
+  }
+  .blog-section {
+    padding: 128px 0;
+  }
+  .blog-cards {
+    flex-direction: row;
+  }
+  .img-section-cards {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5px;
+  }
+  .img-section img {
+    height: 250px;
+    width: 280px;
+  }
+  .check-box {
+    flex-direction: row;
+    max-width: 100%;
+  }
+  .chec-box-content {
+    padding: 3rem 1.5rem;
+    justify-content: space-between;
+    width: 50%;
+  }
+  .footers{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+  .footer-content,.question{
+    width: 25%;
+  }
+  .services-contents,.quicks-links,.question {
+    gap: 50px;
+  }
+  .services-links{
+    flex-direction: row;
+    gap: 80px;
+  }
+  .services-link1,.quick-link {
+    gap: 20px;
+  }
+  .question-content address{
+    line-height: 1.7;
+  }
+}
