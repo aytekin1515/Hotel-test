@@ -667,7 +667,7 @@
   padding: 25px 20px;
   text-align: center;
   text-transform: uppercase;
-  width: fit-content;
+  width: 100%;
 }
 .footer-bg {
   background-color: #1a1a1a;
@@ -966,9 +966,20 @@
     height: 250px;
     width: 280px;
   }
+  .checkboxx{
+    display: flex;
+    justify-content: center;
+  }
   .check-box {
     flex-direction: row;
-    max-width: 100%;
+    max-width: 80%;
+    top: -70px;
+  }
+  .check-box a {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    line-height: 1.5;
   }
   .chec-box-content {
     padding: 3rem 1.5rem;
