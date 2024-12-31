@@ -435,7 +435,7 @@
 .restobar-card-content {
   display: flex;
   justify-content: space-between;
-  gap: 20px;
+  gap: 100px;
 }
 .restobar-card-content h3 {
   font: 600 20px "Nunito Sans", serif;
@@ -927,6 +927,9 @@
   }
   .restobar-card {
     max-width: 400px;
+  }
+  .restobar-card-content{
+    gap: 20px;
   }
   .restobar-img img {
     min-height: 600px;
